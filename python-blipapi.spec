@@ -9,7 +9,9 @@ Source0:	http://blipapi.googlecode.com/files/BlipApiPY-%{version}.tar.bz2
 URL:		http://code.google.com/p/blipapi/
 %pyrequires_eq	python
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
 BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
