@@ -1,7 +1,7 @@
 Summary:	Python blip.pl API
 Name:		python-blipapi
 Version:	0.02.04
-Release:	2
+Release:	3
 License:	GPL v2 or LGPL
 Group:		Libraries/Python
 Source0:	http://blipapi.googlecode.com/files/BlipApiPY-%{version}.tar.bz2
