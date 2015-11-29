@@ -7,6 +7,7 @@ Group:		Libraries/Python
 Source0:	http://blipapi.googlecode.com/files/BlipApiPY-%{version}.tar.bz2
 # Source0-md5:	38892df4239376e51300e5455a319664
 URL:		http://code.google.com/p/blipapi/
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
